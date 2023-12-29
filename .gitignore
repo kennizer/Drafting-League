@@ -129,4 +129,3 @@ dist
 backend/node_modules/**
 backend/assets/champion/**
 backend/champions/**
-frontend/node_modules/**
