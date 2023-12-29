@@ -1,0 +1,80 @@
+#draftLayout {
+    display:flex; 
+    width: 100%; 
+    height: 100%; 
+    max-height: 100%;
+}
+#toolkit {
+    flex: 2; 
+    border-right: 1px solid gray;
+    height: 100%;
+    text-align: center;
+    color: whitesmoke; 
+}
+#banGap {
+    margin-left: 1.5em; 
+    width: 4em;
+    margin-right: 1.5em;
+}
+#draftScreen {
+    flex: 12;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    display:flex; 
+    flex-direction: column; 
+}
+#mainDrafting {
+    flex: 8; 
+    margin-top: 0.75em;
+    display: flex; 
+    max-width: 100%; 
+    overflow-y: hidden;
+}
+#confirmDrafting {
+    flex:2; 
+    display: flex; 
+    width: 100%;
+}
+#championDraftInput:focus::placeholder {
+    color: transparent
+}
+#championDraftInput {
+    flex: 1;
+    text-align: center; 
+    margin-left: 3em; 
+    outline: none; 
+    border: none;
+    width: 80%;
+    align-self: center;
+    font-size: 1em;
+    background: none; 
+    border-bottom: 1px solid white; 
+    color: white;
+}
+#leftDraft {
+    flex: 1;
+    display:flex; 
+    flex-direction: column
+}
+#centerDraft {
+    flex: 4;
+    display: flex; 
+    flex-direction: column;
+    height: 100%;
+    max-height: 100%;
+    border-left: 1px solid gray; 
+    border-right: 1px solid gray;
+}
+
+#championConfirm {
+    flex: 1; 
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+#rightDraft {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column
+}

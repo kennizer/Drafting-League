@@ -1,0 +1,18 @@
+.ban {
+    width: 5em; 
+    height: 5em;
+    margin: auto;
+    border: 1px solid rgb(207, 207, 207);
+}
+.banContainer {
+    display:flex; 
+    width: 100%;
+    flex: 1; 
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.ban.blue.selecting {
+    border: 0.15em solid rgb(0, 255, 251);
+}
+.ban.red.selecting {
+    border: 0.15em solid #ff0000;
+}

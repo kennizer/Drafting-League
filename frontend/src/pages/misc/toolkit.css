@@ -1,0 +1,38 @@
+.layoutButton {
+    border-radius: 25%;
+    border: 0.1em solid white;
+    width: 1.5em; 
+    height: 1.5em;
+    align-self: center;
+    color: whitesmoke; 
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+}
+.layoutButton.selected {
+    border-color: greenyellow;
+    color: greenyellow
+}
+.layoutButton:hover {
+    border-color: orange; 
+}
+#draftToolkit {
+    display: flex; 
+    flex-direction: column;
+    height: 100%;
+}
+#draftControls {
+    flex:1;
+}
+#saveLayout {
+    flex: 3; 
+    display: grid; 
+    grid: auto / auto auto; 
+    grid-gap: 0.25em;
+    justify-items: center;
+    grid-template-rows: auto;
+}
+.centered {
+    margin: auto;
+    align-self: center;
+}

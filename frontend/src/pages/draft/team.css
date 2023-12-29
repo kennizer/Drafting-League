@@ -1,0 +1,16 @@
+.team {
+    display:flex; 
+    flex: 9;
+    flex-direction: column;
+    height: 100%;
+}
+.player {
+    flex: 1;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.player.selecting.red {
+    border-left: 0.25em solid #ff0000; 
+}
+.player.selecting.blue {
+    border-right: 0.25em solid rgb(0, 255, 251);
+}
