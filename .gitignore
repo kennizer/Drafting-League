@@ -125,3 +125,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+backend/node_modules/**
+backend/assets/champion/**
+backend/champions/**
+frontend/node_modules/**
